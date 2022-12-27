@@ -1,5 +1,5 @@
 #sketchy module
-export DATA_DIR=/content/AwesomeMRC/transformer-mrc/examples/tests_samples/squad_test
+export DATA_DIR=/content/AwesomeMRC_colab/transformer-mrc/examples/tests_samples/squad_test
 export TASK_NAME=squad
 python ./examples/run_cls.py \
     --model_type albert \
