@@ -2,7 +2,7 @@
 export SQUAD_DIR=data/
 python ./examples/run_squad_av.py \
     --model_type albert \
-    --model_name_or_path albert-xxlarge-v2 \
+    --model_name_or_path albert-base-v2 \
     --do_train \
     --do_eval \
     --do_lower_case \
